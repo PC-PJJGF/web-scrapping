@@ -4,9 +4,9 @@ Este proyecto de **Web Scraping** permite obtener información de una página we
 
 ## Funcionalidades
 
-    - **Obtener datos de una página web**: Se solicita al usuario una URL y se extrae el HTML.
-    - **Buscar elementos HTM**L: Permite realizar búsquedas por ID, tipo y clase.
-    - **Guardar los datos**: Los resultados obtenidos de las búsquedas pueden ser guardados en un archivo CSV.
+- **Obtener datos de una página web**: Se solicita al usuario una URL y se extrae el HTML.
+- **Buscar elementos HTM**L: Permite realizar búsquedas por ID, tipo y clase.
+- **Guardar los datos**: Los resultados obtenidos de las búsquedas pueden ser guardados en un archivo CSV.
 ## Estructura del Proyecto
 
 ```bash
@@ -66,8 +66,8 @@ Este proyecto de **Web Scraping** permite obtener información de una página we
 
 Este proyecto requiere las siguientes dependencias:
 
-    - BeautifulSoup4: Para analizar el HTML.
-    - requests: Para realizar solicitudes HTTP.
-    - selenium: Para navegar por la web (no implementado por ahora).
+- BeautifulSoup4: Para analizar el HTML.
+- requests: Para realizar solicitudes HTTP.
+- selenium: Para navegar por la web (no implementado por ahora).
 
 Estas  dependencias están listadas en el archivo `requirements.txt`.
