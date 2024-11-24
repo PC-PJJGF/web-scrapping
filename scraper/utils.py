@@ -1,6 +1,9 @@
 # utils.py
 import csv
 import os
+import logging
+
+logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
 
 def ask_for_id():
     if input("Do you want to search by ID? (y/n) ").lower() == 'y':
@@ -12,9 +15,9 @@ def ask_for_id():
 def ask_for_url():
     while True:
         url = input("Enter the URL: ")
-        if url:
+        if url.startswith("http://") or url.startswith("https://"):
             return url
-        print("Invalid URL. Please try again.")
+        logging.error("Invalid URL. Please enter a valid URL.")
 
 def ask_for_type():
     if input("Do you want to search by type? (y/n) ").lower() == 'y':
@@ -34,9 +37,6 @@ def ask_for_save():
     if input("Do you want to save the data? (y/n) ").lower() == 'y':
         return True
     return False
-
-import csv
-import os
 
 def save_in_csv(data):
     try:

@@ -1,11 +1,19 @@
 # scraper.py
 
 import requests
+import logging
 from bs4 import BeautifulSoup
 
+logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
+
 def get_html(url):
-    response = requests.get(url)
-    return response.text
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.text
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Error al obtener el HTML: {e}")
+        return None
 
 def parse_html(html):
     soup = BeautifulSoup(html, 'html.parser')

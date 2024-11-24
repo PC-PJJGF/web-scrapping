@@ -1,0 +1,8 @@
+Invalid URL. Please enter a valid URL.
+Invalid URL. Please enter a valid URL.
+2024-11-24 14:49:12,090 - ERROR - Invalid URL. Please enter a valid URL. - File "utils.py", line 20
+2024-11-24 14:50:09,100 - ERROR - Error al obtener el HTML: HTTPSConnectionPool(host='dhjkashdgiuashgfdkaif.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FDDB6E17F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')) - File "scraper.py", line 15
+2024-11-24 14:50:09,100 - ERROR - Error: object of type 'NoneType' has no len() - File "main.py", line 49
+2024-11-24 14:51:18,709 - ERROR - Invalid URL. Please enter a valid URL. - File "utils.py", line 20
+2024-11-24 14:53:16,867 - ERROR - Error al obtener el HTML: HTTPSConnectionPool(host='huassc.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000229F56E57F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')) - File "scraper.py", line 15
+2024-11-24 14:53:16,867 - ERROR - Error: object of type 'NoneType' has no len() - File "main.py", line 56

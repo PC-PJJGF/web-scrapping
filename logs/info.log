@@ -1,0 +1,8 @@
+2024-11-24 14:51:18,709 - ERROR - Invalid URL. Please enter a valid URL. - File "utils.py", line 20
+2024-11-24 14:51:29,288 - INFO - Busqueda por id No se ha buscado por ID N/A
+Busqueda por type p ['<p>This domain is for use in illustrative examples in documents. You may use this     domain in literature without prior coordination or asking for permission.</p>', '<p><a href="https://www.iana.org/domains/example">More information...</a></p>']
+Busqueda por class No se ha buscado por class ['N/A'] - File "main.py", line 44
+2024-11-24 14:51:30,950 - INFO - Saving data... - File "main.py", line 47
+2024-11-24 14:51:30,951 - INFO - Data saved in data/scraped_data.csv - File "main.py", line 51
+2024-11-24 14:53:16,867 - ERROR - Error al obtener el HTML: HTTPSConnectionPool(host='huassc.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000229F56E57F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')) - File "scraper.py", line 15
+2024-11-24 14:53:16,867 - ERROR - Error: object of type 'NoneType' has no len() - File "main.py", line 56
