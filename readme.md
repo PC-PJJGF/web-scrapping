@@ -32,7 +32,7 @@ Este proyecto de **Web Scraping** permite obtener información de una página we
 1. Clona este repositorio
 
 ```bash
-    git clone [text](https://github.com/ProyectosCarlosPersonales/web-scrapping.git)
+    git clone https://github.com/ProyectosCarlosPersonales/web-scrapping.git
     cd web-scrapping
 ```
 2. Crea y activa el entorno virtual
