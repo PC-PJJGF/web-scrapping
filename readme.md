@@ -65,9 +65,9 @@ Este proyecto de **Web Scraping** permite obtener información de una página we
 ### Requisitos
 
 Este proyecto requiere las siguientes dependencias:
-- 
-    - BeautifulSoup4: Para analizar el HTML.
-    - requests: Para realizar solicitudes HTTP.
-    - selenium: Para navegar por la web (no implementado por ahora).
+
+- BeautifulSoup4: Para analizar el HTML.
+- requests: Para realizar solicitudes HTTP.
+- selenium: Para navegar por la web (no implementado por ahora).
 
 Estas  dependencias están listadas en el archivo `requirements.txt`.
